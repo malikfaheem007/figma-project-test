@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const FooterSection = () => {
   return (
-    <div className="px-20 bg-white">
+    <div className="px-20 bg-white overflow-hidden">
       <div className="flex py-[48px] gap-[48px]">
         <div className="flex-1 flex-col leading-[140%]">
           <div className="flex py-3 gap-2">
