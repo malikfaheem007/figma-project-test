@@ -27,7 +27,6 @@ export const MainSection = () => {
           <p className="min-w-[88px] text-white tracking-[0%] w-[80px] h-5 text-[14px] px-1 font-normal lg:font-light leading-[140%] text-center content-center border border-white">
             Oil Painting
           </p>
-
           <p className="min-w-[92px] text-white tracking-[0%] w-[80px] h-5 text-[14px] px-1 font-normal lg:font-light leading-[140%] text-center content-center border border-white">
             Abstract Art
           </p>
