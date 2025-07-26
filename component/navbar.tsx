@@ -16,12 +16,12 @@ export const NavbarSection = () => {
   }, []);
   return (
     <nav>
-      <div className="flex items-center justify-between px-20 py-6 bg-rose-900">
+      <div className="flex items-center justify-between px-4 bg-rose-900 lg:px-20">
         <div>
-          <h5 className="font-bold text-3xl text-white">xinder</h5>
+          <h5 className="font-bold text-[32px] text-white">xinder</h5>
         </div>
         <div className="flex items-center py-3 px-2">
-          <div className="hidden md:flex  gap-4">
+          <div className="hidden lg:flex  gap-4">
             <ul className="flex items-center gap-4">
               <li className="text-white">Explore</li>
               <li className="text-white">Solutions</li>
@@ -30,13 +30,13 @@ export const NavbarSection = () => {
                 <a href="">Sing In</a>
               </li>
             </ul>
-            <Button className=" bg-rose-900 text-white hover:bg-rose-900 border border-white">
+            <Button className="bg-rose-900 text-white hover:bg-rose-900 border border-white">
               Join Now
             </Button>
           </div>
           <Button
             variant="ghost"
-            className="md:hidden hover:bg-rose-900"
+            className="lg:hidden hover:bg-rose-900"
             onClick={() => setMobileOpen((prev) => !prev)}
           >
             {mobileOpen ? (
@@ -48,7 +48,7 @@ export const NavbarSection = () => {
         </div>
       </div>
       {mobileOpen && (
-        <nav className="md:hidden shadow-md bg-rose-900 py-2 px-20">
+        <nav className="bg-rose-900 py-2">
           <ul className="flex flex-col justify-center gap-4 px-5">
             <li className="text-white">Explore</li>
             <li className="text-white">Solutions</li>
