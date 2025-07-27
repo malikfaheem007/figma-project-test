@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export const FooterSection = () => {
   return (
-    <div className="px-20 bg-white overflow-hidden">
-      <div className="flex py-[48px] gap-[48px]">
+    <div className="px-4 lg:px-20 bg-white lg:overflow-hidden">
+      <div className="flex flex-col lg:flex-row py-[48px] gap-[48px]">
         <div className="flex-1 flex-col leading-[140%]">
           <div className="flex py-3 gap-2">
             <div>
@@ -230,13 +230,14 @@ export const FooterSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between pt-12 pb-6 gap-12">
+      <hr />
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between pt-6 lg:pt-12 pb-6 gap-6 lg:gap-12">
         <div>
           <h2 className="font-normal text-[16px] leading-[140%] text-[#475569]">
             @ 2023 Xinder, Inc. All rights reserved.
           </h2>
         </div>
-        <div className="flex gap-4 justify-center items-center">
+        <div className="flex gap-4 lg:justify-center lg:items-center">
           <div>
             <Image
               src="/pic/youtube.png"
@@ -279,7 +280,7 @@ export const FooterSection = () => {
           </div>
         </div>
       </div>
-      <div className="pt-6 pb-12 gap-2.5 leading-[140%]">
+      <div className="lg:pt-6 pb-12 gap-2.5 leading-[140%]">
         <p className="font-normal text-[12px] text-[#475569px] tracking-[0%]">
           In sed posuere sed ullamcorper feugiat. Lacinia elit neque, ipsum,
           non. Tellus mattis enim volutpat habitasse. Semper posuere lectus
