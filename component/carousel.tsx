@@ -32,20 +32,20 @@ export const CarouselSection = () => {
         <Image
           src="/pic/flower.png"
           alt="Flower picture"
-          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px] min-w-[300px]"
+          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px]"
           width={300}
           height={300}
         />
         <Image
           src="/pic/heart.png"
           alt="Heart picture"
-          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px] min-w-[300px]"
+          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px]"
           width={300}
           height={300}
         />
         <Image
           src="/pic/splash.png"
-          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px] min-w-[300px]"
+          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px]"
           alt="Splash picture"
           width={300}
           height={300}
@@ -53,7 +53,14 @@ export const CarouselSection = () => {
         <Image
           src="/pic/face.png"
           alt="Face picture"
-          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px] min-w-[300px]"
+          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px]"
+          width={300}
+          height={300}
+        />
+        <Image
+          src="/pic/boy-1.png"
+          alt="Boy-1 picture"
+          className="object-cover border-[1px] border-[#E2E8F0] rounded-[10px]"
           width={300}
           height={300}
         />
