@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 export const MainSection = () => {
   return (
-    <div className="pl-4 pt-24 flex flex-col gap-8 bg-rose-900 lg:flex-row lg:pl-20">
+    <div className="px-4 pt-24 flex flex-col gap-8 bg-rose-900 lg:flex-row lg:pl-20 lg:pr-0">
       <div className="flex-1 bg-rose-900 flex flex-col justify-center gap-6">
         <div className="w-full max-w-[361px] sm:max-w-[450px] lg:max-w-[640px] items-center justify-center gap-6">
           <h1 className="font-bold text-[40px] sm:text-5xl lg:text-7xl leading-tight text-white">
@@ -42,7 +42,7 @@ export const MainSection = () => {
         </div>
       </div>
 
-      <div className="flex flex-1 justify-center">
+      <div className="flex">
         <Image
           src={"/pic/girl-pic.png"}
           alt="girlPicture"
