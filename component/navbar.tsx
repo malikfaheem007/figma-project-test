@@ -16,7 +16,7 @@ export const NavbarSection = () => {
   }, []);
   return (
     <nav className="bg-rose-900">
-      <div className="flex items-center justify-between max-w-[1312px] mx-auto">
+      <div className="flex items-center justify-between px-4 max-w-[1312px] mx-auto">
         <div>
           <h5 className="font-bold text-[32px] text-white">xinder</h5>
         </div>
